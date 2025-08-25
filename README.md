@@ -28,36 +28,36 @@ A scalable **URL Shortener** application built with **React**, **Node.js**, and 
 
 ---
 
-## 📁 Project Structure
+# Project Structure
 url-shortener-project/
 ├── backendserver/
-│   ├── analysisservicemicroproj/
-│   │   ├── middleware/
-│   │   │   └── authMiddleware.js
-│   │   ├── dbConnect.js
-│   │   ├── index.js
-│   │   └── urlanalysisController.js
-│   ├── authservicemicroproj/
-│   │   ├── dbConnect.js
-│   │   ├── index.js
-│   │   └── userController.js
-│   └── urlservicemicroproj/
-│       ├── middleware/
-│       │   └── authMiddleware.js
-│       ├── dbConnect.js
-│       ├── index.js
-│       └── urlshortenController.js
+│ ├── analysisservicemicroproj/
+│ │ ├── middleware/
+│ │ │ └── authMiddleware.js
+│ │ ├── dbConnect.js
+│ │ ├── index.js
+│ │ └── urlanalysisController.js
+│ ├── authservicemicroproj/
+│ │ ├── dbConnect.js
+│ │ ├── index.js
+│ │ └── userController.js
+│ ├── urlservicemicroproj/
+│ │ ├── middleware/
+│ │ │ └── authMiddleware.js
+│ │ ├── dbConnect.js
+│ │ ├── index.js
+│ │ └── urlshortenController.js
 ├── client/
-│   ├── api/
-        ├── AnalysisUrlApi.jsx
-        ├── AuthApi.jsx
-        ├── UrlApi.jsx
-│   ├── pages/
-        ├── Home.jsx
-        ├── Login.jsx
-        ├── Signup.jsx
-    ├── main.jsx
-│   └── index.css
+│ ├── api/
+│ │ ├── AnalysisUrlApi.jsx
+│ │ ├── AuthApi.jsx
+│ │ └── UrlApi.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Login.jsx
+│ │ ├── Signup.jsx
+│ ├── main.jsx
+│ └── index.css
 └── README.md
 
 ---
